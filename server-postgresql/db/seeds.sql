@@ -9,7 +9,7 @@ CREATE TABLE recipes (
 
 INSERT INTO recipes (name, author, serves)
 VALUES
-    ('Mac n cheese', 'Kai', 4)
-    ('Spaghetti bolognese', 'Kayi', 4)
-    ('Burrito', 'Kayi', 2)
+    ('Mac n cheese', 'Kai', 4),
+    ('Spaghetti bolognese', 'Kayi', 4),
+    ('Burrito', 'Kayi', 2);
     
