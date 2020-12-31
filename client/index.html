@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Database!</title>
+    <script defer src='js/app.js'></script>
+    <link rel='stylesheet' href='styles/index.css'>
+</head>
+
+<body>
+    <div id='content'>
+        <button id='msg-btn'>Click to receive a message from server!</button>
+
+        <form id='new-recipe-form'>
+            <input type='text' id='name' placeholder='name'/>
+            <input type='text' id='author' placeholder='author'/>
+            <input type='text' id='serves' placeholder='serves'/>
+
+            <input type='submit' value='Add recipe'>
+        </form>
+        
+        <section id='recipes'>
+            <h1>Cookbook</h1>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Serves</th>
+                    <th>Delete</th>
+                </tr>
+            </table>
+            <ul></ul>
+        </section>
+    </div>
+</body>
+</html>
