@@ -30,5 +30,6 @@ services:
       - POSTGRES_DB=cookbook
       - POSTGRES_USER=kxx
       - POSTGRES_PASSWORD=pass
+      
 volumes:
   dbdata:
